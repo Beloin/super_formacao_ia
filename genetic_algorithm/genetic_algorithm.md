@@ -29,3 +29,12 @@ Quanto mais próxima uma geração está do objetivo final, mais ela tem chance 
 4. Cromossomos sofrem Cruzamento, Mutação (Chance aleatória de produzir uma mudança na carga genética dos cromossomos) e Elitismo (Os elementos mais próximos da solução não são cruzados, porém são transmitidos para a próxima geração)
 5. Nova geração criada, volte para o Passo 2.
 6. Fim.
+
+### Cromosomos e População
+
+ - Solução proposta para o problema.
+ - População é o conjunto de cromossomos com propostas de solução para o problema.
+ - A população não deve ser muito grande nem muito pequena.
+
+
+### Genes
