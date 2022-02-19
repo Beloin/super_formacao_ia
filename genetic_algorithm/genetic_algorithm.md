@@ -38,3 +38,56 @@ Quanto mais próxima uma geração está do objetivo final, mais ela tem chance 
 
 
 ### Genes
+
+ - Genes que representam valores. 
+ - Cada cromossomo carrega um conjunto de genes; propostas diferentes para um mesmo problema.
+
+### Recombinação e Crossover
+ - Processo que se baseia na combinação dos cromossomos de onde é produzida uma nova geração de cromossomos com a recombinação dos genes.
+ - Tem objetivo de gerar descendentes melhores.
+ - A combinação vem de uma probabilidade.
+ - Os cromossomos são selecionados com reposição.
+ - Os **pontos de cruzamento** são aleatórios.
+ - Métodos de seleção (Roulete Wheel, Seleção por Classificação)
+
+"Cortes" nos cromossomos: Ponto único, Dois pontos...
+
+### Elitismo
+
+ - Com o intuito de não perder os cromossomos mais adaptados, eles são "copiados" sem alteração para a nova geração.
+
+
+### Codificação ou Estrutura dos Genes
+
+ - Determina qual será a estrutura de Um Gene:
+    - Binária (O que levar na mochila)
+    - Permutação (Caixeiro Viajante)
+    - Valores (Equações matemáticas)
+
+### Mutação
+
+ - Cada gene pode ser modificado aleatoriamente de acordo com uma probabilidade durante o periodo de crossover, geralmente muito baixa.
+ 
+### Adaptação (Fitness)
+
+ - Uma forma de quantificar a "qualidade" daquele indivíduo/cromossomo.
+ - Quanto maior a nota, mais chances o índividuo tem de se reproduzir e ir para o próximo estado.
+ - A função de adaptação é criada pelo próprio programador.
+ - Também é medido a adaptação da população para ver a melhora em relação a população anterior.
+
+### Espaço de Soluções
+
+ - Soluções Possíveis
+ - Nem toda solução encontrada será a melhor solução (Assim como visto nos algoritmos de busca.)
+
+### Descendentes
+
+ - Através de crossover, mutação e elitismo é criada uma nova geração.
+ - A geração anterior é substituída.
+ - Mesma quantidade da população.
+
+### Algoritmos Heurísticos
+
+ - Solução sem limite formal adequado de solução.
+ - "Optima Local".
+ - O melhor possível para aquele momento/Problema.
